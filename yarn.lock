@@ -14,9 +14,9 @@
   "resolved" "https://registry.npm.taobao.org/@babel/compat-data/download/@babel/compat-data-7.12.13.tgz?cache=0&sync_timestamp=1612314643826&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fcompat-data%2Fdownload%2F%40babel%2Fcompat-data-7.12.13.tgz"
   "version" "7.12.13"
 
-"@babel/core@^7.0.0", "@babel/core@^7.0.0-0", "@babel/core@^7.11.0":
-  "integrity" "sha1-jGukVrI7aApkk93PzZ08OtUcq3w="
-  "resolved" "https://registry.npm.taobao.org/@babel/core/download/@babel/core-7.12.16.tgz"
+"@babel/core@^7.0.0", "@babel/core@^7.0.0-0", "@babel/core@^7.11.0", "@babel/core@^7.12.16":
+  "integrity" "sha512-t/hHIB504wWceOeaOoONOhu+gX+hpjfeN6YRBT209X/4sibZQfSF1I0HFRRlBe97UZZosGx5XwUg1ZgNbelmNw=="
+  "resolved" "https://registry.npmjs.org/@babel/core/-/core-7.12.16.tgz"
   "version" "7.12.16"
   dependencies:
     "@babel/code-frame" "^7.12.13"
@@ -713,9 +713,9 @@
     "@babel/helper-create-regexp-features-plugin" "^7.12.13"
     "@babel/helper-plugin-utils" "^7.12.13"
 
-"@babel/preset-env@^7.11.0":
-  "integrity" "sha1-FnEONJDjd2Sy9BiG3gozvErpEII="
-  "resolved" "https://registry.npm.taobao.org/@babel/preset-env/download/@babel/preset-env-7.12.16.tgz?cache=0&sync_timestamp=1613083688857&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fpreset-env%2Fdownload%2F%40babel%2Fpreset-env-7.12.16.tgz"
+"@babel/preset-env@^7.11.0", "@babel/preset-env@^7.12.16":
+  "integrity" "sha512-BXCAXy8RE/TzX416pD2hsVdkWo0G+tYd16pwnRV4Sc0fRwTLRS/Ssv8G5RLXUGQv7g4FG7TXkdDJxCjQ5I+Zjg=="
+  "resolved" "https://registry.npmjs.org/@babel/preset-env/-/preset-env-7.12.16.tgz"
   "version" "7.12.16"
   dependencies:
     "@babel/compat-data" "^7.12.13"
@@ -1819,9 +1819,9 @@
     "eslint-visitor-keys" "^1.0.0"
     "resolve" "^1.12.0"
 
-"babel-loader@^8.1.0":
-  "integrity" "sha1-k2POhMEMmkDmx1N0jhRBtgyKC4E="
-  "resolved" "https://registry.npm.taobao.org/babel-loader/download/babel-loader-8.2.2.tgz?cache=0&sync_timestamp=1606424445376&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fbabel-loader%2Fdownload%2Fbabel-loader-8.2.2.tgz"
+"babel-loader@^8.1.0", "babel-loader@^8.2.2":
+  "integrity" "sha512-JvTd0/D889PQBtUXJ2PXaKU/pjZDMtHA9V2ecm+eNRmmBCMR09a+fmpGTNwnJtFmFl5Ei7Vy47LjBb+L0wQ99g=="
+  "resolved" "https://registry.npmjs.org/babel-loader/-/babel-loader-8.2.2.tgz"
   "version" "8.2.2"
   dependencies:
     "find-cache-dir" "^3.3.1"
@@ -2314,7 +2314,7 @@
   "resolved" "https://registry.npm.taobao.org/check-types/download/check-types-8.0.3.tgz?cache=0&sync_timestamp=1579454776068&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcheck-types%2Fdownload%2Fcheck-types-8.0.3.tgz"
   "version" "8.0.3"
 
-"chokidar@^2.1.8":
+"chokidar@^2.1.8", "chokidar@>=2.0.0 <4.0.0":
   "integrity" "sha1-gEs6e2qZNYw8XGHnHYco8EHP+Rc="
   "resolved" "https://registry.npm.taobao.org/chokidar/download/chokidar-2.1.8.tgz?cache=0&sync_timestamp=1610721450018&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fchokidar%2Fdownload%2Fchokidar-2.1.8.tgz"
   "version" "2.1.8"
@@ -7071,6 +7071,13 @@
   "resolved" "https://registry.npm.taobao.org/safer-buffer/download/safer-buffer-2.1.2.tgz"
   "version" "2.1.2"
 
+"sass@^1.32.7":
+  "integrity" "sha512-C8Z4bjqGWnsYa11o8hpKAuoyFdRhrSHcYjCr+XAWVPSIQqC8mp2f5Dx4em0dKYehPzg5XSekmCjqJnEZbIls9A=="
+  "resolved" "https://registry.npmjs.org/sass/-/sass-1.32.7.tgz"
+  "version" "1.32.7"
+  dependencies:
+    "chokidar" ">=2.0.0 <4.0.0"
+
 "sax@~1.2.4":
   "integrity" "sha1-KBYjTiN4vdxOU1T6tcqold9xANk="
   "resolved" "https://registry.npm.taobao.org/sax/download/sax-1.2.4.tgz"
@@ -8458,9 +8465,9 @@
     "source-list-map" "^2.0.0"
     "source-map" "~0.6.1"
 
-"webpack@^1.0.0 || ^2.0.0 || ^3.0.0 || ^4.0.0", "webpack@^2.0.0 || ^3.0.0 || ^4.0.0", "webpack@^3.0.0 || ^4.1.0 || ^5.0.0-0", "webpack@^4.0.0", "webpack@^4.0.0 || ^5.0.0", "webpack@^4.4.0", "webpack@>=2", "webpack@>=2.0.0 <5.0.0", "webpack@>=4.0.0":
-  "integrity" "sha1-v5tEBOogoHNgXgoBHRiNd8tq1UI="
-  "resolved" "https://registry.npm.taobao.org/webpack/download/webpack-4.46.0.tgz?cache=0&sync_timestamp=1612722544482&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fwebpack%2Fdownload%2Fwebpack-4.46.0.tgz"
+"webpack@^1.0.0 || ^2.0.0 || ^3.0.0 || ^4.0.0", "webpack@^2.0.0 || ^3.0.0 || ^4.0.0", "webpack@^3.0.0 || ^4.1.0 || ^5.0.0-0", "webpack@^4.0.0", "webpack@^4.0.0 || ^5.0.0", "webpack@^4.4.0", "webpack@^4.46.0", "webpack@>=2", "webpack@>=2.0.0 <5.0.0", "webpack@>=4.0.0":
+  "integrity" "sha512-6jJuJjg8znb/xRItk7bkT0+Q7AHCYjjFnvKIWQPkNIOyRqoCGvkOs0ipeQzrqz4l5FtN5ZI/ukEHroeX/o1/5Q=="
+  "resolved" "https://registry.npmjs.org/webpack/-/webpack-4.46.0.tgz"
   "version" "4.46.0"
   dependencies:
     "@webassemblyjs/ast" "1.9.0"
