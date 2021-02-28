@@ -50,5 +50,17 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "```\r yarn install\r ```",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/art-tal/newBeer.git"
+  },
+  "author": "Talanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/art-tal/newBeer/issues"
+  },
+  "homepage": "https://github.com/art-tal/newBeer#readme"
 }

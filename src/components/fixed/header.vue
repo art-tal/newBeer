@@ -9,18 +9,17 @@
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav class="w-50" >
-        <b-navbar-nav class="text-left align-baseline">
-          <b-nav-item class="nav-item px-1" href="#">Home</b-nav-item>
-          <b-nav-item class="nav-item px-1" href="#">Пивная карта</b-nav-item>
-          <b-nav-item class="nav-item px-1" href="#">О нас</b-nav-item>
-          <b-nav-item class="nav-item px-1" href="#">Контакты</b-nav-item>
-        </b-navbar-nav>
+<!--        <b-navbar-nav class="text-left align-baseline">-->
+<!--          <b-nav-item class="nav-item px-1" href="#">Home</b-nav-item>-->
+<!--          <b-nav-item class="nav-item px-1" href="#">Пивная карта</b-nav-item>-->
+<!--          <b-nav-item class="nav-item px-1" href="#">О нас</b-nav-item>-->
+<!--          <b-nav-item class="nav-item px-1" href="#">Контакты</b-nav-item>-->
+<!--        </b-navbar-nav>-->
 
 
         <div class="work-panel ml-auto mx-3 text-right">
           <b-icon-cart4 variant="dark" scale="1.25"></b-icon-cart4>
         </div>
-        <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-3">
           <b-nav-item-dropdown text="RU" class="mr-4 " right>
             <!--            <b-dropdown-item href="#">EN</b-dropdown-item>-->
@@ -28,7 +27,6 @@
             <b-dropdown-item href="#">RU</b-dropdown-item>
             <!--            <b-dropdown-item href="#">FA</b-dropdown-item>-->
           </b-nav-item-dropdown>
-          <!-- Using 'button-content' slot -->
 
           <b-button-group>
             <b-button variant="outline-dark">Sing In</b-button>
